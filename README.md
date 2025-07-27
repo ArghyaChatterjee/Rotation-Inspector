@@ -20,6 +20,7 @@ python3 euler_rotation_plotter.py
 <div align="center">
   <img src="media/euler_rotation.png" width="600">
 </div>
+
 You can change the euler angles `roll`, `pitch` and `yaw` of the plot to see your desired transform in action. The plot is `x` forward, `y` left and `z` up.
 
 ## Quaternion Plotting:
@@ -30,4 +31,5 @@ python3 quaternion_plotter.py
 <div align="center">
   <img src="media/quaternion.png" width="600">
 </div>
+
 You can change the euler angles `qx`, `qy`, `qz` and `qw` of the plot to see your desired transform in action. The plot is `x` forward, `y` left and `z` up.
