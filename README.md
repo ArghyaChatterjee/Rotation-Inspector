@@ -12,7 +12,7 @@ https://github.com/ArghyaChatterjee/Rotation-Inspector.git
 Install numpy and matplotlib. That's it.
 
 # Demo Usage
-For Euler Rotation Plotting:
+## Euler Rotation Plotting:
 ```
 cd scripts
 python3 euler_rotation_plotter.py
@@ -20,8 +20,9 @@ python3 euler_rotation_plotter.py
 <div align="center">
   <img src="media/euler_rotation.png" width="600">
 </div>
+You can change the euler angles `roll`, `pitch` and `yaw` of the plot to see your desired transform in action. The plot is `x` forward, `y` left and `z` up.
 
-For Quaternion Plotting:
+## Quaternion Plotting:
 ```
 cd scripts
 python3 quaternion_plotter.py
@@ -29,4 +30,4 @@ python3 quaternion_plotter.py
 <div align="center">
   <img src="media/quaternion.png" width="600">
 </div>
-
+You can change the euler angles `qx`, `qy`, `qz` and `qw` of the plot to see your desired transform in action. The plot is `x` forward, `y` left and `z` up.
